@@ -15,6 +15,7 @@ public class AddLibraryTest extends TestBase {
 		dashBoardPageObject.userOpenLibraryFromDashBoard();
 		libraryPageObject = new LibraryPage(driver);
 		libraryPageObject.userAddLibrary();
+		System.out.println("done from server side");
 	}
 
 }
